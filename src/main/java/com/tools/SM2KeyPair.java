@@ -1,0 +1,1 @@
+package com.tools;import lombok.Data;/** * @author hubing * @date 2021/09/16 17:04 **/@Datapublic class SM2KeyPair {    //公钥    private String publicKey;    //私钥    private String privateKey;    public SM2KeyPair(String publicKey,String privateKey){        this.publicKey = publicKey;        this.privateKey = privateKey;    }}
